@@ -1,0 +1,44 @@
+* {
+  font-family: sans-serif;
+}
+
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+h1 {
+  text-align: center;
+}
+
+h2 {
+  text-align: center;
+}
+
+.field-container {
+  margin-bottom: 15px;
+}
+
+.field {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 10px;
+}
+
+input[type="text"] {
+  border: none;
+  border-bottom: 1px solid black;
+  outline: none;
+}
+
+input[type="number"] {
+  width: 30px;
+}
+
+.result {
+  display: grid;
+  align-items: center;
+  gap: 5px;
+}
